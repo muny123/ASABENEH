@@ -138,11 +138,25 @@ let lasName = 'Badru'
  console.log(`I am ${actualAge} years older than you`);
 
 //  ques 14
-let  agee = prompt("Enter your age in years")
-const seconds = agee * 60 * 60 * 24 * 365 ;
-alert(`You lived ${seconds} seconds`);
+// let  agee = prompt("Enter your age in years")
+// const seconds = agee * 60 * 60 * 24 * 365 ;
+// alert(`You lived ${seconds} seconds`);
 
-// 
+// ques 15
+let dateNow = new Date();
+year = dateNow.getFullYear();
+month = dateNow.getMonth();
+date = dateNow.getDate();
+hour = dateNow.getHours();
+minutes = dateNow.getMinutes();
+
+console.log(`${year}-${month+1}-${date} ${hour}:${minutes}`);
+console.log(`${date}-${month+1}-${year} ${hour}:${minutes}`);
+console.log(`${date}/${month+1}/${date} ${hour}:${minutes}`);
+
+
+
+
 
   
 
