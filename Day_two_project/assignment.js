@@ -57,8 +57,9 @@
 
  let jargon = "I hope this course is not full of jargon";
  console.log(jargon.includes("jargon"));// true
-     //random numbers btw 50 and 100
+     //random numbers btw 0 and 100
  console.log(Math.random() * 100); // worked
+     //random numbers btw 50 and 100
  console.log(Math.floor(Math.random() * 31) + 50);
 
      //random numbers btw 0 and 255
