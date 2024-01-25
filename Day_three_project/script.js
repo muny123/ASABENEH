@@ -73,12 +73,79 @@ console.log(`The minutes now  is ${year.getMinutes()}`);
 console.log(`The minutes now  is ${year.getTime()}`);
                  //Exercises: Level 2
   //1
-  let base = prompt("enter base in number");
-  let height = prompt('enter height in cm')  
-  let areaOfTriangle = 0.5 *base * height; 
-  alert(areaOfTriangle);     
+//   let base = prompt("enter base in number");
+//   let height = prompt('enter height in cm')  
+//   let areaOfTriangle = 0.5 *base * height; 
+//   alert(`The area of the triangle is ${areaOfTriangle}`);     
   //que 2
-     
+//   let sideA = prompt("Enter the side A in Number")
+//   let sideB = prompt("Enter the side B in Number")
+//   let sideC = prompt("Enter the side B in Number")
+//   let perimeter = Number(sideA)+ Number(sideB)+ Number(sideC);
+//   alert(`The perimeter of the triangle is ${perimeter}`)
+
+  //que3
+//   let length = prompt("length")
+//   let width = prompt("width")
+//   let areaOfRectange = Number(length) * Number(width);
+//   let perimeterOfRectangle = 2 * (Number(length) + Number(width))
+//   alert(`the areaOfRectange is ${areaOfRectange}`)
+//   alert(` the perimeterOfRectangle is ${perimeterOfRectangle}`)
+
+  // ques 4
+  const pie = 3.142;
+  let radius = 5;
+  let circumferenceOfACircle = 2 * pie * radius;
+  console.log(circumferenceOfACircle.toFixed(2));
+
+//   ques 6
+let points =[2, 2, 6, 10];
+let slope = (points[3] - points[1]) /  (points[2] - points[1])
+console.log(slope);
+
+// ques 8 
+// let xy =prompt("Enter your x ");
+// let ans = xy**2 + 6*xy + 9;
+// console.log(ans);
+
+// que 9
+//  let hours = prompt("hours in Number")
+//  let payPerHr = prompt("pay per hour")
+//  let earning = hours * payPerHr;
+//   alert(`Your weekly earning is ${earning}`)
+ 
+//ques 10
+// let name = prompt("Enter your name");
+// if(name.length > 7 ){
+//     alert(`your name is long`)
+// }else {
+//     alert(`your name is short`)
+// }
+
+//ques 11
+let firsName = 'Munira'
+let lasName = 'Badru'
+ if(firsName.length >= lasName.length){
+    console.log(`Your first name, ${firsName} is longer than your family name, ${lasName}`);
+ }else{
+    console.log(`Your first name, ${firsName} is shorter than your family name, ${lasName}`);
+
+ }
+ //ques 12
+ let myAge = 250
+ let yourAge = 25
+ let actualAge = myAge - yourAge;
+ console.log(`I am ${actualAge} years older than you`);
+
+//  ques 14
+let  agee = prompt("Enter your age in years")
+const seconds = agee * 60 * 60 * 24 * 365 ;
+alert(`You lived ${seconds} seconds`);
+
+// 
+
+  
+
 
 
 
