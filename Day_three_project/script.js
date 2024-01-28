@@ -71,6 +71,8 @@ console.log(`The date today is ${year.getDate()}`);
 console.log(`The hour now  is ${year.getHours()}`);
 console.log(`The minutes now  is ${year.getMinutes()}`);
 console.log(`The minutes now  is ${year.getTime()}`);
+                 
+
                  //Exercises: Level 2
   //1
 //   let base = prompt("enter base in number");
@@ -153,6 +155,14 @@ minutes = dateNow.getMinutes();
 console.log(`${year}-${month+1}-${date} ${hour}:${minutes}`);
 console.log(`${date}-${month+1}-${year} ${hour}:${minutes}`);
 console.log(`${date}/${month+1}/${date} ${hour}:${minutes}`);
+
+// Exercises: Level 3
+//YY-MM-DD HH:mm
+// if(dateNow.getHours() <= 9){
+//   console.log(`0${dateNow.getHours()}`);
+// }
+const dateformatYear = `${dateNow.getFullYear()}-0${dateNow.getMonth()+1}-${dateNow.getDate()} 0${dateNow.getHours()}:${dateNow.getMinutes()}`;
+console.log(dateformatYear);
 
 
 
